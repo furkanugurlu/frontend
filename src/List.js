@@ -15,12 +15,12 @@ export default class List extends Component {
                         <View style={styles.card}>
                             <View style={styles.colum1}>
                               <View style={{flex:1, flexDirection:'row'}}>
-                                  <Image source={item.USA_ımage}  style={styles.usa}/>
-                                  <Text style={{marginLeft:10,marginTop:22}}>{item.USA_name}</Text>
+                                  <Image source={item.image_usa}  style={styles.usa}/>
+                                  <Text style={{marginLeft:10,marginTop:22}}>{item.country_usa}</Text>
                               </View>
                               <View style={{flex:1, flexDirection:'row'}}>
-                                  <Image source={item.TR_ımage}  style={styles.usa}/>
-                                  <Text style={{marginLeft:10,marginTop:22}} >{item.TR_name}</Text>
+                                  <Image source={item.image_turkey}  style={styles.usa}/>
+                                  <Text style={{marginLeft:10,marginTop:22}} >{item.country_usa}</Text>
                               </View>
                               <View style={{justifyContent:'center', marginTop:6, marginRight:8}}>
                                 <Ionicons name="ios-arrow-forward" size={24} style={{color:'#000',}}></Ionicons>
@@ -28,8 +28,8 @@ export default class List extends Component {
                             </View>
                           <View style={styles.colum2}>
                              <View style={{flex:1, flexDirection:'row',marginTop:12, marginLeft:14}}>
-                                <Text style={styles.dolar}>{item.Dolar}</Text>
-                                <Text style={styles.tl}>{item.Lira}</Text>
+                                <Text style={styles.dolar}>{item.dolar}</Text>
+                                <Text style={styles.tl}>{item.lira}</Text>
                                 <Text style={styles.weight}>{item.weight}</Text>
                              </View>
                              <View style={styles.buttonCard}> 
