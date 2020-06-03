@@ -8,7 +8,7 @@ class App extends Component {
   state  = {
     data: [
       {
-        country_turkye: 'Turkey',
+        country_turkey: 'Turkey',
         image_turkey: require('./src/ımage/TR.jpg'),
         country_usa: 'USA',
         image_usa: require('./src/ımage/USA.jpg'),
@@ -17,7 +17,7 @@ class App extends Component {
         weight:'16kg' 
       },
       {
-        country_turkye: 'Turkey',
+        country_turkey: 'Turkey',
         image_turkey: require('./src/ımage/TR.jpg'),
         country_usa: 'USA',
         image_usa: require('./src/ımage/USA.jpg'),
@@ -26,7 +26,7 @@ class App extends Component {
         weight:'1.43kg'        
       },
       {
-        country_turkye: 'Turkey',
+        country_turkey: 'Turkey',
         image_turkey: require('./src/ımage/TR.jpg'),
         country_usa: 'USA',
         image_usa: require('./src/ımage/USA.jpg'),
@@ -35,7 +35,7 @@ class App extends Component {
         weight:'40kg'        
       },
       {
-        country_turkye: 'Turkey',
+        country_turkey: 'Turkey',
         image_turkey: require('./src/ımage/TR.jpg'),
         country_usa: 'USA',
         image_usa: require('./src/ımage/USA.jpg'),
@@ -44,7 +44,7 @@ class App extends Component {
         weight:'11kg'        
       }, 
       {
-        country_turkye: 'Turkey',
+        country_turkey: 'Turkey',
         image_turkey: require('./src/ımage/TR.jpg'),
         country_usa: 'USA',
         image_usa: require('./src/ımage/USA.jpg'),
@@ -53,7 +53,7 @@ class App extends Component {
         weight:'15kg'        
       },
       {
-        country_turkye: 'Turkey',
+        country_turkey: 'Turkey',
         image_turkey: require('./src/ımage/TR.jpg'),
         country_usa: 'USA',
         image_usa: require('./src/ımage/USA.jpg'),

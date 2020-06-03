@@ -20,7 +20,7 @@ export default class List extends Component {
                               </View>
                               <View style={{flex:1, flexDirection:'row'}}>
                                   <Image source={item.image_turkey}  style={styles.usa}/>
-                                  <Text style={{marginLeft:10,marginTop:22}} >{item.country_usa}</Text>
+                                  <Text style={{marginLeft:10,marginTop:22}} >{item.country_turkey}</Text>
                               </View>
                               <View style={{justifyContent:'center', marginTop:6, marginRight:8}}>
                                 <Ionicons name="ios-arrow-forward" size={24} style={{color:'#000',}}></Ionicons>
